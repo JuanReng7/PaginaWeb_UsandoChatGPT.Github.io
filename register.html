@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+      body {
+            background: #0084ff;
+        }
+
+      form {
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+    }
+
+    label {
+     display: block;
+     margin-top: 20px;
+     font-size: 18px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      background-color: #0a23a3;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+
+      .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+     .button {
+        background-color: rgb(255, 119, 0);
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+
+
+
+  <form>
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="lastname">Apellido:</label>
+    <input type="text" id="lastname" name="lastname" required>
+    
+    <label for="username">Usuario:</label>
+    <input type="text" id="username" name="username" required>
+    
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password" required>
+    
+    <input type="submit" value="Registrarse">
+    
+    <body>
+      <div class="button-container">
+         <a href="index.html" class="button">Ir al index</a>
+         <a href="login.html" class="button"> Ir al Login</a>
+       </div>
+  </form>
+
+</body>
+</html>
