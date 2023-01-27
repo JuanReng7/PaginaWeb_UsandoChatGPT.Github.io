@@ -4,43 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página de inicio</title>
 
     <style>
 
-        body {
-            background: #0084ff;
-        }
-.button-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
+      body {
+        background: #0084ff;
+        text-align: center;
       }
 
-     .button {
-        background-color: blue;
+        /* Estilos para los botones */
+        .button {
+        background-color: #4CAF50; /* Verde */
+        border: none;
         color: white;
-        padding: 16px 32px;
+        padding: 15px 32px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;
-        border-radius: 5px;
+      }
+      /* Estilo para centrar los botones en la página */
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
       }
     </style>
 
 </head>
-
-
 <body>
-   <div class="button-container">
-      <a href="register.html" class="button">Registro</a>
-      <a href="login.html" class="button">Login</a>
-    </div>
+  <h1>Página de inicio</h1>
 
-
+  <div class="center">
+    <a href="register.html" class="button">Registro</a>
+    <a href="login.html" class="button">Iniciar sesión</a>
+  </div>
 </body>
 </html>
